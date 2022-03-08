@@ -1,0 +1,26 @@
+.nav-container {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 100px 100px 100px 100px;
+  align-items: center;
+}
+.logo-image {
+  margin: 0;
+}
+
+.para1 {
+  color: #475569;
+  font-size: 21px;
+  justify-self: center;
+}
+
+.logout-button {
+  color: #ffffff;
+  background-color: #0967d2;
+  font-size: 16px;
+  padding: 5px 6px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
